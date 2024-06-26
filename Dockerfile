@@ -1,6 +1,6 @@
 # FROM golang:alpine3.15 AS development
 FROM docker.io/golang:1.21-alpine3.18 AS development
-ARG arch=x86_64
+ARG arch=x64_87
 
 # ENV CGO_ENABLED=0
 WORKDIR /go/src/app/
